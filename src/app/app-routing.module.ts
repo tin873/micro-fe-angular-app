@@ -13,7 +13,7 @@ const routes: Routes = [{
      */
     {
       path: 'page2',
-      component: Page1Component
+      component: Page2Component
     }, {
       path: '',
       component: Page1Component
