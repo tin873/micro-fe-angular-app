@@ -24,7 +24,7 @@ const routes: Routes = [{
 }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy'  ,useHash: true})],
   exports: [RouterModule],
   providers: [{ provide: APP_BASE_HREF, useValue: '/' }]
 })
